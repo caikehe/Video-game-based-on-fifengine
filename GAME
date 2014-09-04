@@ -1,0 +1,40 @@
+1. Finished the command line utilities part.
+
+2. Finished the Add something new part(a). By default the girl stands still, if we click the 
+mouse, the boy will move toward the click point, here the camera focus on the boy. If we click
+the boy icon, the icon will switch to the girl icon, and now we can control the girl with our
+mouse, here the camera will focus on the girl. By clicking back on the icon again, the control
+will switch back to the boy as well. 
+
+3. Finished the Add something new part(b). The bees can move randonly around the board. If a 
+bee is too close (this distance is predefined as a threshold) to the girl, the bee will ran 
+away from the girl. The attack action also has been implemented in the bee.py file. When a bee
+ is close to the girl, it will attack her.
+
+Extra functionalities:
+1. If a bee is too close to the boy, the boy will kick it, and the bee will fall down. (code is 
+implemented in bee.py file)
+
+2. After bees fall down, the beekeeper will come to the position where the bees falling down, to
+ckeck if bees are really dead. The default action of the beekeeper is just stand 
+still. (code is in the bee.py file)
+
+3. Create a tourist_male2.py file. Due to the fact that he needs a guide, the tourist_male2 will 
+run after the hero. I also have implement other actions of the tourist_male2, such as run(), 
+standstill().
+
+4. Create a hippie_priest.py file, which will the actions of the hippie_priest. First, he will walk
+randomly around the board, we will compute the distance between him and the girl iteratively, if he
+is close to the girl, he will read a story to hear, or just fall to the ground as a jok.
+
+5. If you use your right mouse key to inspect the box which is the "dynamites_lid_broken', you will 
+get a pop box to show you "IT IS DANGEROUS".
+
+
+
+
+
+
+
+
+
